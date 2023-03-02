@@ -1,0 +1,138 @@
+/* Estilos generales */
+body {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7c702;
+    }
+    
+    #header {
+        font-size: 48px;
+        text-align: center;
+      }
+    
+    h3 {
+    font-size: 32px;
+    }
+    
+    p {
+    margin-bottom: 2em;
+    }
+    
+    a {
+    color: #ffffff;
+    text-decoration: underline;
+    }
+    
+    a:hover {
+    text-decoration: none;
+    color: #000000;
+    }
+    
+    table {
+    border-collapse: separate;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #00eeff;
+    color: #ff0000;
+    }
+    
+    th, td {
+    border: 2px dotted #000000;
+    padding: 1em;
+    text-align: center;
+    }
+    
+    th {
+    background-color: #f7c702;
+    color: #000000;
+    }
+    
+    ol, ul {
+    margin-bottom: 2em;
+    padding-left: 2em;
+    }
+    
+    dl {
+    margin-bottom: 2em;
+    }
+    
+    dt {
+    font-weight: bold;
+    margin-top: 2em;
+    }
+    
+    dd {
+    margin-left: 3em;
+    }
+    
+    /* Estilos específicos */
+    img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    }
+    
+    #Pelicula {
+    color: #f7c702;
+    }
+    
+    #Pelicula:hover {
+    color: #000000;
+    }
+    
+    caption {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+    }
+    
+    caption a {
+    font-size: 24px;
+    }
+    
+    caption a:hover {
+    text-decoration: none;
+    color: #f7c702;
+    }
+    
+    /* Estilos para el formulario */
+    form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    }
+    
+    /* Estilos para los campos de texto y etiquetas */
+    input[type="text"], label {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    }
+    
+    /* Estilos para los botones */
+    input[type="submit"], input[type="reset"] {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+    
+    /* Estilos para los botones al pasar el cursor encima */
+    input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #f7c702;
+    color: #000000;
+    }
